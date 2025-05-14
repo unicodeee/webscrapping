@@ -1,9 +1,10 @@
 # quiz-scrapler
 I wrote this script to scrap multiple choices quizzes on canvas and put them all in a text file so it's easier to import to Quizlet
-
+(only works if the answers has been released by instructors)
 # How to use this cript:
 1. Download html of quizzes from canvas and put in the same folder. Ex: `/Users/Thang/Documents/SJSU materials/CMPE 131/quizlet/`
-2. Go to main.py and change `source_folder` to that folder: 
+2. IMPORTANT: the answers should be unlocked and viewable from canvas - ask your professor.
+3. Go to main.py and change `source_folder` to that folder: 
     Ex: 
     ``` source_folder = str = r'/Users/Thang/Documents/SJSU materials/CMPE 131/quizlet/'
    ```
